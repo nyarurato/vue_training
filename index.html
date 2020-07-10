@@ -12,6 +12,9 @@
       </p>
       <p v-else>No messages.</p>
 
+      <p>{{ messages.t }}</p>
+      <button v-on:click="reverseMessage">Reverse Message</button>
+
       <section class="tab-content" v-show="currentTab === 1">
         <h2>Tab 1</h2>
         <p>Test1</p>
@@ -22,8 +25,9 @@
       </section>
       <section class="tab-content" v-show="currentTab === 3">
         <h2>Tab 3</h2>
-        <p>Test3</p>
+        <p>Test3!!!aaaaaaaaaaaaaaaaaa</p>
       </section>
+      <button v-on:click="changeTab">Tabchange</button>
     </div>
   </div>
 
