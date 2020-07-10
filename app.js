@@ -1,6 +1,9 @@
 var app = new Vue({
-    el: '#app',
-    data: {
-      message: 'Hello world'
-    }
-  })
+  el: '#app',
+  data: {
+    messages: {
+      count: 100,
+    },
+    currentTab: 2
+  }
+})
